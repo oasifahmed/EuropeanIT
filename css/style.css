@@ -1,0 +1,202 @@
+/* -------- preset ----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* ---------- present end --------  */
+
+.navbar{
+    background-color: rgb(207, 253, 253);
+    padding: 16px 0;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_section h2{
+    color: rgb(40, 169, 255);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu_item a{
+    padding: 8px 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(40, 169, 255);
+}
+
+
+
+
+/* ------------ banner section start here ----------  */
+.banner_section{
+    background: url('../imgs/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 0;
+}
+.banner_container h1{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.banner_container span{
+    color: rgb(40, 169, 255);
+    font-weight: 800;
+    font-size: 38px;
+    font-size: 78px;
+    display: block;
+}
+
+
+
+/* -------------- Stuff Section -----------  */
+.office_stuff_section{
+    padding-bottom: 64px;
+}
+.stuff_headline{
+    font-size: 68px;
+    color: rgba(32, 31, 31, 0.808);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 44px 0;
+}
+.stuff_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.office_stuff{
+    width: 32%;
+    border: 2px solid rgba(48, 124, 255, 0.293);
+    padding: 12px;
+    border-radius: 8px;
+}
+.office_stuff img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.stuff_name{
+    font-size: 28px;
+    color: rgb(32, 31, 31);
+}
+.office_stuff .stuff_desig{
+    color: rgba(219, 26, 26, 0.896);
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.stuff_details{
+    font-size: 16px;
+    color: rgba(32, 31, 31, 0.863);
+}
+
+
+
+
+/* -------------- course section -----------  */
+.course_section{
+    padding-bottom: 64px;
+}
+.course_headline{
+    font-size: 68px;
+    color: rgba(32, 31, 31, 0.808);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 44px 0;
+}
+.course_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course{
+    width: 32%;
+    border: 2px solid rgba(48, 124, 255, 0.293);
+    padding: 12px;
+    border-radius: 8px;
+}
+.course img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.course_name{
+    font-size: 28px;
+    color: rgb(32, 31, 31);
+    text-transform: uppercase;
+}
+.course_price{
+    color: rgba(219, 26, 26, 0.896);
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.course_details{
+    font-size: 16px;
+    color: rgba(32, 31, 31, 0.863);
+}
+
+
+
+/* --------- testimonial ---------  */
+.testimonial_container{
+    padding: 0 180px;
+}
+.testimonial_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+    border: 2px solid rgba(63, 158, 254, 0.252);
+    padding: 24px;
+    border-radius: 12px;
+}
+.testimonial_content{
+    padding-right: 56px;
+}
+.testimonial_text{
+    font-size: 18px;
+    color: rgba(46, 45, 45, 0.959);
+}
+.testimonial_content .name{
+    font-size: 28px;
+    color: rgb(8, 70, 145);
+}
+
+.testimonial_img img{
+    border-radius: 8px;
+}
+
+.socket p{
+    text-align: center;
+    padding: 6px 0;
+    background-color: rgb(24, 24, 24);
+    color: #f4eeee;
+    font-size: 16px;
+}
+
